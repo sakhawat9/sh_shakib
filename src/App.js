@@ -1,9 +1,14 @@
+import AboutUs from "./components/about-us";
+import Header from "./components/header";
+import Hero from "./components/hero";
 
 function App() {
   return (
-    <div>
-      <h2>Hello world</h2>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <AboutUs />
+    </>
   );
 }
 
