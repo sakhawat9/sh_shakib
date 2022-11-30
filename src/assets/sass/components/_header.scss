@@ -27,12 +27,12 @@
       }
   
       .navbar-nav li a {
-        color: $color-dark;
+        color: $color-light;
       }
   
       .navbar-nav li a:hover,
       .navbar-nav li a.active {
-        color: $color-primary;
+        color: $color-light;
         background: none;
       }
   
@@ -163,7 +163,7 @@
           left: 50%;
           transform: translate(-50%, 0);
           height: 2px;
-          background: $color-primary;
+          background-color: $color-light;
           position: absolute;
           bottom: -10px;
         }

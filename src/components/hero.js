@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Typed from "react-typed";
 
 const Hero = ({ isBg }) => {
@@ -36,8 +37,11 @@ const Hero = ({ isBg }) => {
                 proficiency in JavaScript and ReactJS as well as strong skills
                 in writing clean and efficient codes.
               </p>
-              <a href="#author" className="button button__primary me-3">
-                <span>Awarded books</span>
+              <Link to="about-us" className="button button__primary me-3">
+                <span>About us</span>
+              </Link>
+              <a href="https://drive.google.com/uc?export=download&id=1BzpVoR3OadSYNQVzQEF8bMCx-N44GBnI" className="btn__primary me-3">
+                <span>Resume</span>
               </a>
             </div>
           </div>

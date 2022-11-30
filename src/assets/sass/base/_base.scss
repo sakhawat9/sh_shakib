@@ -70,10 +70,10 @@ body {
     border-radius: 3px;
     overflow: hidden;
     color: $color-light;
-    background: $color-tertiary;
+    background-color: $color-tertiary;
     &::before {
       content: "";
-      background: $color-primary;
+      background-color: $color-primary;
       width: 125%;
       left: -12%;
       transform: skew(30deg);
@@ -85,5 +85,57 @@ body {
     &:hover::before {
       transform: translate3d(100%, 0, 0);
     }
+  }
+}
+
+.btn__primary {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 30px;
+  line-height: 30px;
+  border-radius: 3px;
+  overflow: hidden;
+  text-transform: capitalize;
+  text-decoration: none;
+  border: 0;
+  background-color: $color-primary;
+  color: $color-light;
+  transition: all 0.3s ease;
+  span {
+    position: relative;
+    z-index: 2;
+    color: inherit;
+  }
+  &::before,
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+    background-color: $color-tertiary;
+    transition: all 0.4s;
+  }
+  &::before {
+    left: 0px;
+  }
+  &::after {
+    right: 0px;
+  }
+  &:hover {
+    &::before,
+    &::after {
+      width: 50%;
+    }
+  }
+  &:hover,
+  &:focus,
+  &:visited {
+    text-decoration: none;
+    outline: none;
+    color: $color-light;
   }
 }

@@ -33,7 +33,7 @@ const Header = () => {
             </Navbar.Toggle>
             <Navbar.Collapse id="navbarSupportedContent">
               <ul className="navbar-nav menu ms-lg-auto">
-                <li>
+                <li className="nav-item">
                   <Link
                     activeClass="active"
                     className="nav-link scroll dropdown-toggle"
@@ -51,7 +51,7 @@ const Header = () => {
                     Hero
                   </Link>
                 </li>
-                <li>
+                <li className="nav-item">
                   <Link
                     activeClass="active"
                     className="nav-link scroll dropdown-toggle"
@@ -67,6 +67,24 @@ const Header = () => {
                     aria-expanded="false"
                   >
                     About us
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    activeClass="active"
+                    className="nav-link scroll dropdown-toggle"
+                    to="projects"
+                    spy={true}
+                    isDynamic={false}
+                    hashSpy={false}
+                    spyThrottle={500}
+                    smooth={true}
+                    duration={500}
+                    offset={-60}
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Projects
                   </Link>
                 </li>
               </ul>
