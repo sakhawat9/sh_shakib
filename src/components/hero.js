@@ -40,22 +40,23 @@ const Hero = ({ isBg }) => {
               <Link to="about-us" className="button button__primary me-3">
                 <span>About us</span>
               </Link>
-              <a href="https://drive.google.com/uc?export=download&id=1BzpVoR3OadSYNQVzQEF8bMCx-N44GBnI" className="btn__primary me-3">
+              <a
+                href="https://drive.google.com/uc?export=download&id=1BzpVoR3OadSYNQVzQEF8bMCx-N44GBnI"
+                className="btn__primary me-3"
+              >
                 <span>Resume</span>
               </a>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="hero__author text-center">
-              <div className="hero__author--inner">
-                <div className="hero__author--inner--wrapper">
-                  <img
-                    width="500"
-                    className="img-fluid"
-                    src="assets/images/shakib.jpg"
-                    alt="shakib"
-                  />
-                </div>
+              <div className="hero__author--wrapper">
+                <img
+                  width="500"
+                  className="img-fluid"
+                  src="assets/images/shakib.jpg"
+                  alt="shakib"
+                />
               </div>
             </div>
           </div>
