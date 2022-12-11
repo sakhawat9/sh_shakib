@@ -34,14 +34,15 @@ const Projects = () => {
             <div className="projects__item">
               <img
                 className="img-fluid"
-                src="assets/images/cheesy_01.png"
+                src="assets/images/acadmist_01.png"
                 alt="cheesy kitchen"
               />
               <div className="projects__item__content">
-                <h3>cheesy kitchen</h3>
+                <h3>Academist</h3>
                 <p>
-                  Cheesy Kitchen is a full-stack single-page web application
-                  where users can order foods.
+                  Academist is a learning management website like Udemy where
+                  instructors can post their course and a student can enroll in
+                  it.
                 </p>
               </div>
             </div>
@@ -50,14 +51,15 @@ const Projects = () => {
             <div className="projects__item">
               <img
                 className="img-fluid"
-                src="assets/images/cheesy_01.png"
+                src="assets/images/watch_shop_01.png"
                 alt="cheesy kitchen"
               />
               <div className="projects__item__content">
-                <h3>cheesy kitchen</h3>
+                <h3>Watch_shop</h3>
                 <p>
-                  Cheesy Kitchen is a full-stack single-page web application
-                  where users can order foods.
+                  Watch_Shop is an e-commerce website where users can see
+                  watches on the basis of category, can add watches to cart and
+                  watchlist.
                 </p>
               </div>
             </div>
