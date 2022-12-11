@@ -93,7 +93,7 @@ const AboutUs = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/Sakhawa23623504">
+                  <a href="https://github.com/sakhawat9">
                     <FiGithub />
                   </a>
                 </li>
