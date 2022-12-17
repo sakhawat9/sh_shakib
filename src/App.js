@@ -1,4 +1,5 @@
 import AboutUs from "./components/about-us";
+import Blog from "./components/blog";
 import Contact from "./components/contact";
 import Header from "./components/header";
 import Hero from "./components/hero";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <AboutUs />
       <Projects />
+      <Blog />
       <Contact />
     </>
   );
