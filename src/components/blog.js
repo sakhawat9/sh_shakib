@@ -1,4 +1,4 @@
-import React from "react";
+import { BiTimeFive } from "react-icons/bi";
 
 const Blog = () => {
   return (
@@ -31,142 +31,102 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center">
-          <div
-            className="col-md-6 col-lg-4 mb-4 mb-lg-0"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-          >
-            <article className="blog__single-post h-100 translateEffect1">
+        <div className="row row-cols-1 row-cols-md-3 g-4">
+          <div className="col">
+            <div className="card h-100 blog__single-post">
               <div className="blog__single-post__image">
-                <a href="single-blog.html">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://sakhawat.medium.com/react-js-fundamental-10-concepts-f1bb1780df1f"
+                >
                   <img
                     className="img-fluid"
                     src="assets/images/blog1.jpg"
-                    alt="Blog 01"
+                    alt="blog 01"
                   />
                 </a>
               </div>
-              <div className="blog__single-post__body">
+              <div className="blog__single-post__body card-body">
                 <div className="blog__single-post__content">
                   <h2 className="fs-4">
-                    <a href="single-blog.html">
-                      Book News: Egypt Bans Ridley Scott’s ‘Exodus’ For
-                      ‘Historical
+                    <a href="https://sakhawat.medium.com/react-js-fundamental-10-concepts-f1bb1780df1f">
+                      React.js fundamental 10 concepts
                     </a>
                   </h2>
                   <p className="m-0">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout.
+                    In this blog, there are 10 simple ways to react.js. It is
+                    not a complete guide to React but rather a complete
+                    introduction
                   </p>
                 </div>
-                <div className="blog__single-post__meta">
-                  <div>
-                    <i className="icofont-clock-time"></i> 3 June, 2021
-                  </div>
-                  <ul>
-                    <li>
-                      <i className="icofont-speech-comments"></i>
-                    </li>
-                    <li>
-                      <i className="icofont-share"></i>
-                    </li>
-                  </ul>
-                </div>
               </div>
-            </article>
+              <div className="blog__single-post__meta card-footer">
+                <BiTimeFive /> May 7, 2021
+              </div>
+            </div>
           </div>
-          <div
-            className="col-md-6 col-lg-4 mb-4 mb-lg-0"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="300"
-          >
-            <article className="blog__single-post h-100 translateEffect1">
+          <div className="col">
+            <div className="card h-100 blog__single-post">
               <div className="blog__single-post__image">
-                <a href="single-blog.html">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://sakhawat.medium.com/javascript-es6-block-binding-385781357080"
+                >
                   <img
                     className="img-fluid"
-                    src="assets/images/blog2.png"
-                    alt="Blog 02"
+                    src="assets/images/blog2.jpg"
+                    alt="blog 02"
                   />
                 </a>
               </div>
-              <div className="blog__single-post__body">
+              <div className="blog__single-post__body card-body">
                 <div className="blog__single-post__content">
                   <h2 className="fs-4">
-                    <a href="single-blog.html">
-                      Wyden, Eshoo question “big five” publishers over
+                    <a href="https://sakhawat.medium.com/javascript-es6-block-binding-385781357080">
+                      JavaScript ES6 Block Bindin
                     </a>
                   </h2>
                   <p className="m-0">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout.
+                    Variable declarations using var are treated as if they are
+                    at the top of the function this is called hoisting.
                   </p>
                 </div>
-                <div className="blog__single-post__meta">
-                  <div>
-                    <i className="icofont-clock-time"></i> 3 June, 2021
-                  </div>
-                  <ul>
-                    <li>
-                      <i className="icofont-speech-comments"></i>
-                    </li>
-                    <li>
-                      <i className="icofont-share"></i>
-                    </li>
-                  </ul>
-                </div>
               </div>
-            </article>
+              <div className="blog__single-post__meta card-footer">
+                <BiTimeFive /> May 6, 2021
+              </div>
+            </div>
           </div>
-          <div
-            className="col-md-6 col-lg-4"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="400"
-          >
-            <article className="blog__single-post h-100 translateEffect1">
+          <div className="col">
+            <div className="card h-100 blog__single-post">
               <div className="blog__single-post__image">
-                <a href="single-blog.html">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://sakhawat.medium.com/top-10-javascript-interview-questions-2e1d2f106443"
+                >
                   <img
                     className="img-fluid"
-                    src="assets/images/blog3.png"
-                    alt="Blog 03"
+                    src="assets/images/blog3.jpg"
+                    alt="blog 03"
                   />
                 </a>
               </div>
-              <div className="blog__single-post__body">
+              <div className="blog__single-post__body card-body">
                 <div className="blog__single-post__content">
                   <h2 className="fs-4">
-                    <a href="single-blog.html">
-                      There is a method to this book-buying madness
+                    <a href="https://sakhawat.medium.com/top-10-javascript-interview-questions-2e1d2f106443">
+                      Top 10 JavaScript Interview Questions
                     </a>
                   </h2>
-                  <p className="m-0">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout.
-                  </p>
-                </div>
-                <div className="blog__single-post__meta">
-                  <div>
-                    <i className="icofont-clock-time"></i> 3 June, 2021
-                  </div>
-                  <ul>
-                    <li>
-                      <i className="icofont-speech-comments"></i>
-                    </li>
-                    <li>
-                      <i className="icofont-share"></i>
-                    </li>
-                  </ul>
                 </div>
               </div>
-            </article>
+              <div className="blog__single-post__meta card-footer">
+                <BiTimeFive /> May 8, 2021
+              </div>
+            </div>
           </div>
         </div>
       </div>

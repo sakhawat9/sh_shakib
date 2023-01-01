@@ -20,7 +20,7 @@ const Header = () => {
         <div className="row">
           <Navbar bg="none" expand="lg">
             <a className="navbar-brand" href="/">
-              <h1 className="m-0">SHAKIB</h1>
+              <h1 className="m-0">SHAKIB.</h1>
               {/* <img src={siteLogo.logo} alt={siteLogo.alt} /> */}
             </a>
             <Navbar.Toggle aria-controls="navbarSupportedContent">
@@ -85,6 +85,24 @@ const Header = () => {
                     aria-expanded="false"
                   >
                     Projects
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    activeClass="active"
+                    className="nav-link scroll dropdown-toggle"
+                    to="blog"
+                    spy={true}
+                    isDynamic={false}
+                    hashSpy={false}
+                    spyThrottle={500}
+                    smooth={true}
+                    duration={500}
+                    offset={-60}
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Blog
                   </Link>
                 </li>
                 <li className="nav-item">
