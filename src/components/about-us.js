@@ -73,7 +73,7 @@ const AboutUs = () => {
               <h3 className="mt-4">Social Media Contact</h3>
               <ul className="social-icon mt-3">
                 <li>
-                  <a href="https://www.facebook.com/">
+                  <a href="https://facebook.com/shshakib2001/">
                     <FaFacebookF />
                   </a>
                 </li>

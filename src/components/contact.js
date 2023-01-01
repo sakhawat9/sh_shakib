@@ -1,28 +1,3 @@
-// import React from "react";
-
-// const Contact = () => {
-//   return (
-//     <div className="contact section-padding">
-//       <div className="container">
-//         <div className="row">
-//           <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
-//             <div className="section-title-center text-center">
-//               <span>Contact us</span>
-//               <h2 className="display-6">Contact me anything or anytime</h2>
-//               <div className="section-divider divider-traingle"></div>
-//             </div>
-//           </div>
-//         </div>
-//         <div className="row">
-//             <h3>Contact us</h3>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Contact;
-
 import React from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
@@ -130,15 +105,15 @@ const Contact = () => {
                 </li>
                 <li>
                   <span>EMAIL:</span>
-                  <a href="mailto:sakhawathossain7969@gmail.com">
-                    sakhawathossain7969@gmail.com
+                  <a href="mailto:imshshakib2001@gmail.com">
+                    imshshakib2001@gmail.com
                   </a>
                 </li>
               </ul>
               <h4>Connect our socials</h4>
               <ul className="social-icon mt-3">
                 <li>
-                  <a href="https://www.facebook.com/">
+                  <a href="https://facebook.com/shshakib2001/">
                     <FaFacebookF />
                   </a>
                 </li>
